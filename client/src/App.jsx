@@ -1,11 +1,8 @@
 import { Routes, Route, Link } from 'react-router-dom';
+import Products from './Products.jsx';
 
 function Home() {
   return <h2>Home Page</h2>;
-}
-
-function Products() {
-  return <h2>Products Page</h2>;
 }
 
 function Cart() {
